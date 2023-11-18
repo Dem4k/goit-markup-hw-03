@@ -1,3 +1,15 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -5,6 +17,33 @@ body {
 }
 
 /* Header */
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 156px;
+    padding-left: 156px;
+}
+
+.head-nav {
+    display: flex;
+}
+
+.header-ul {
+    display: flex;
+    margin-left: 76px;
+}
+
+.header-adress-ul {
+    display: flex;
+}
+
+.head-li {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    align-self: center;
+}
 
 .logo {
     font-family: "Raleway", sans-serif;
@@ -14,6 +53,8 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: flex;
+    align-self: center;
 }
 
 .span-studio {
@@ -44,6 +85,10 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    display: flex;
+    padding-left: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .adress-point:hover,
@@ -55,6 +100,10 @@ body {
 
 .main-section {
     background-color: #2e2f42;
+    padding: 188px 472px 292px 472px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .effective-solution {
@@ -74,6 +123,9 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
+    padding: 16px 32px 16px 32px;
+    margin-top: 48px;
+    
 }
 
 .button:hover {
@@ -87,6 +139,19 @@ body {
 }
 
 /* Section 2 */
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 
 .main-li {
     font-weight: 500;
@@ -103,6 +168,15 @@ body {
     color: #434455;
 }
 
+.hidden-ul {
+    display: flex;
+    padding-left: 156px;
+    padding-right: 156px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    gap: 40px;
+}
+
 /* Section 3 */
 
 .team-section {
@@ -116,6 +190,7 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    padding-top: 120px;
 }
 
 .team-li {
@@ -128,6 +203,25 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    display: flex;
+    justify-content: center;
+    padding-top: 32px;
+}
+
+.main-p {
+    display: flex;
+    justify-content: center;
+}
+
+.team-ul {
+    display: flex;
+    flex-direction: row;
+    padding-left: 156px;
+    padding-right: 156px;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 72px;
+    margin-bottom: 120px;
 }
 
 /* Section 4 */
@@ -145,6 +239,16 @@ body {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-top: 120px;
+    padding-bottom: 72px;
+}
+
+.portfolio-ul {
+    display: flex;
+    flex-flow: wrap row;
+    gap: 24px;
+    margin-left: 156px;
+    margin-bottom: 156px;
 }
 
 .portfolio-li-h {
@@ -169,6 +273,7 @@ body {
 
 .footer {
     background-color: #2e2f42;
+    padding-top: 101.5px;
 }
 
 .span-footer {
@@ -179,4 +284,16 @@ body {
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
+    display: flex;
+    padding-bottom: 100px;
+    padding-left: 156px;
+    padding-top: 17.5px;
+    padding-bottom: 100px;
+    padding-right: 1020px;
+}
+
+.logo-footer {
+    display: flex;
+    padding-bottom: 17.5px;
+    padding-left: 156px;
 }
