@@ -35,8 +35,6 @@ img {
 .header-container {
     display: flex;
     justify-content: space-between;
-    padding-right: 156px;
-    padding-left: 156px;
 }
 
 .head-nav {
@@ -61,6 +59,8 @@ img {
     /* padding-left: 40px; */
     align-self: center;
     padding: 24px 0;
+    padding-left: 0; 
+    margin: 0;
 }
 
 .logo {
@@ -87,6 +87,7 @@ img {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 
 .head-a-a:hover,
@@ -184,7 +185,7 @@ img {
   }
 
 .hidden-li {
-    width: calc((100% - 72px)/3)
+    width: calc((100% - 72px)/4)
 }
 
 .main-li {
