@@ -43,13 +43,17 @@ img {
 }
 
 .header-ul {
+    list-style: none;
     display: flex;
     margin-left: 76px;
-    gap: 40px
+    gap: 40px;
+    margin: 0;
+    padding-left: 0;
 }
 
 .header-adress-ul {
     display: flex;
+    list-style: none;
     gap: 40px;
 }
 
@@ -205,11 +209,10 @@ img {
 }
 
 .hidden-ul {
+    list-style: none;
     display: flex;
-    padding-left: 156px;
-    padding-right: 156px;
-    margin-top: 120px;
-    margin-bottom: 120px;
+    padding-left: 0; 
+    margin: 0;
     gap: 24px;
 }
 
@@ -261,10 +264,9 @@ img {
 }
 
 .team-ul {
+    list-style: none;
     display: flex;
     flex-direction: row;
-    padding-left: 156px;
-    padding-right: 156px;
     justify-content: center;
     gap: 24px;
     margin-top: 72px;
@@ -292,11 +294,12 @@ img {
 }
 
 .portfolio-ul {
+    list-style: none;
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    margin-left: 156px;
-    margin-bottom: 156px;
+    padding-left: 0; 
+    margin: 0;
     column-gap: 24px;
     row-gap: 48px;
 }
@@ -319,6 +322,7 @@ img {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin: 8px;
 }
 
 .portfolio-li-p {
